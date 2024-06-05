@@ -135,6 +135,7 @@ class Network(object):
 #### Miscellaneous functions
 def sigmoid(z):
     """The sigmoid function."""
+    x = 1 + 1
     return 1.0/(1.0+np.exp(-z))
 
 def sigmoid_prime(z):
